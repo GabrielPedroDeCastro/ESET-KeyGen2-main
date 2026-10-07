@@ -1,0 +1,16 @@
+*.exe
+*.pyc
+*.txt
+!requirements.txt
+*.log
+__pycache__/
+automation_browser/
+resultados/
+estado_licencas.json
+estado_licencas.tmp
+eset-keygen-config.json
+.venv/
+.env
+.env.*
+work/
+.DS_STORE
