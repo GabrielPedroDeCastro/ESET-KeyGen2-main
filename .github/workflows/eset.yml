@@ -78,7 +78,7 @@ jobs:
           fi
 
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Setup & Run Script (Linux/macOS)
         if: runner.os != 'Windows'
